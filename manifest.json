@@ -3,25 +3,57 @@
   "name": "Ticket Timer",
   "description": "TOPdesk timer met ingebouwde korte README en verbeterde knopruimte.",
   "version": "1.1.8",
-  "key": "hbdpnopgebeacgnffhgdbmlmpooghgag",
+
+  "key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQ0wGpnonsBhfN
+qlKA8Nr9k5sJNiYdz9aULyEUlrIR9xgqhiN5bcxSCva0KDeGxpynbow9eGj7dE8E
+4gHgdnHay4a/aSSU0HaMc0F3IgryW/z6In8dAHbt+8TYoeA/duLkC1CpsmeOiIEh
+ffkYlrIutft68WYZgeL0yC+kkC7JO+HuhANxiOVzG6I//Gh7NPYuBgKYJwtCNIpv
+VzQb8doskA6z/HSKKe4f6F1jTikL1kzZqYyaUoYB9/5psbXlbtx1d+0fxEFpKXSV
+WLYB+jEVePItyEbroxYGkIQU8J4YE4+rOKZJ4KobQZO2XeS5Kl9/nL1r/9U1OEiu
+fgFxb2BDAgMBAAECggEAK012LMw5YX4p9XX6Qc6wOqEfJxvZb5knr/bN700Ig/0v
+P7ItLQL9uY2YdudYDFSnK3kbD6wmaO5HbIXJSdiF548I1Cxjb5CC5MEJtECU8Iju
+vpfksAjmoJbyzNFUhRSMHCnUgjwCiWX5EQ7kVpr5PAJ0sZvZRjTO8V+JsaBMc2Hd
+pKC25Xdc8p87XoQvCRnKKFlHAd9eR7jijGPPJRUPbAvEueFrgnQM7f8BIE1JZmoi
+g5Mey3alrZZ9egMnRr3wzlmkE06NVh8l09GEIDJPGsij07U2ybQYR9zALAvaGBsu
+ZVHA2o0tCQYwSWJSUcF9aKk9syPKAXh5JryaMuWVIQKBgQDpZe95R3vI+MnSMtjY
+0AwQN0S4us7liEDkxInm07vU5r+Mu+AYwPJ+Xrn2FHapbJeBEc57wTpdH1OQbOZH
+9wAiiDbv12kPjjJW/+byxreaHSL+FrJQ/aHbnLLPMNFRYI696a+OkcorDrewH6+e
+NOLCR5jhaT6X0ogCBVlVbnz/OQKBgQDlC9668x3Uvs8U2aVb9GJKekAmzjEmr3TK
+htp/LzDszQtg+QMgwIWfkCFFhts743IEJckp0L24Ad8bW3WepZWT1QVEUcNadL6a
+uJt4OfiSbbKL6bSs0sl4RrvWGvBHZ9AL4PQV8VC2KdOYBWU6zGSQaBNpjDO2OO+Y
+d65RYB7fWwKBgDqUhCubfn0tvHIOoxCf/zceuBfpgz5nGWqRzc7qu80u8UrgaNmt
+q+991Qzni/TwNYKGtp2nHP/8edvZCV9splMEf01pcowd85KUfiHXMIP05jCB/9WG
+I1bcmKCaLx9OreUKvy54dxahhgclnM2HlpaOo9eHs9clV0+yif6AUc05AoGBAOGo
+6C/YBrPrqaopJDmMdKpb94hD7Tjn9HD0m6BiphkniuZnbyV9iCjEn4MYcjZ2x4Y+
+lAqWldQMQ/t4CFHdYZjcbuv4gjdEfeWBq+qvcq8RVK9z+YWrxsKxLa6rq78uEFMj
+tldIAPT4EHfeGPXtGccMQtPiRbBqN+RHRX727HOxAoGAbH7Ttob/dOIYmd08RSsL
+wOsCLdpHrgWrl5oPbT/p/i3GR+Wd+uhCbS0s6xy/rZA230TiYn9tshI9leCig53p
+ZId5/oy6InaGNBSm0ww5q9SzliFhmRmL1b517TGxPvr/2+MVzO/8amo4QYGqbw1K
+FanzeBbozHia5tlQRGItcNA=",
+
   "permissions": [
     "storage",
     "sidePanel",
     "tabs",
     "webNavigation"
   ],
+
   "host_permissions": [
     "https://*.topdesk.net/*"
   ],
+
   "background": {
     "service_worker": "background.js"
   },
+
   "action": {
     "default_title": "Ticket Timer"
   },
+
   "side_panel": {
     "default_path": "sidepanel.html"
   },
+
   "content_scripts": [
     {
       "matches": [
