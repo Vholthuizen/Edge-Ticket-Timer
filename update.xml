@@ -2,7 +2,7 @@
 <gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
     <app appid="ehimjdjjbnidlcndfiblfacjnpgedkbi">
         <updatecheck
-            codebase="https://jouwserver.nl/edge/ticket-timer.crx"
+            codebase="https://vincentholthuizen.github.io/promax-edge-timer/edge-timer-extension.crx"
             version="1.1.8" />
     </app>
 </gupdate>
