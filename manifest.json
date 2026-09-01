@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Ticket Timer",
+  "description": "TOPdesk timer met ingebouwde korte README en verbeterde knopruimte.",
+  "version": "1.1.8",
+  "permissions": [
+    "storage",
+    "sidePanel",
+    "tabs",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://*.topdesk.net/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Ticket Timer"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.topdesk.net/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ]
+}
