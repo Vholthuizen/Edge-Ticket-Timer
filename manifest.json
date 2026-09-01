@@ -3,7 +3,6 @@
   "name": "Ticket Timer",
   "description": "TOPdesk timer met ingebouwde korte README en verbeterde knopruimte.",
   "version": "1.1.8",
-
   "key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQ0wGpnonsBhfN
 qlKA8Nr9k5sJNiYdz9aULyEUlrIR9xgqhiN5bcxSCva0KDeGxpynbow9eGj7dE8E
 4gHgdnHay4a/aSSU0HaMc0F3IgryW/z6In8dAHbt+8TYoeA/duLkC1CpsmeOiIEh
@@ -30,7 +29,6 @@ tldIAPT4EHfeGPXtGccMQtPiRbBqN+RHRX727HOxAoGAbH7Ttob/dOIYmd08RSsL
 wOsCLdpHrgWrl5oPbT/p/i3GR+Wd+uhCbS0s6xy/rZA230TiYn9tshI9leCig53p
 ZId5/oy6InaGNBSm0ww5q9SzliFhmRmL1b517TGxPvr/2+MVzO/8amo4QYGqbw1K
 FanzeBbozHia5tlQRGItcNA=",
-
   "permissions": [
     "storage",
     "sidePanel",
